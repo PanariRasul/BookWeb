@@ -1,0 +1,49 @@
+.App{
+  height: 100vh;
+  padding: 0px 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+}
+.books{
+  display: flex;
+  flex-grow: 3;
+  
+}
+.books{
+  flex:3;
+  flex-grow: 3;
+
+}
+
+img{
+  width: 200px;
+  height: 300px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 0px;
+  object-fit: cover;
+  background-color:rgb(235, 169, 87);
+  box-shadow: 2px 8px 20px 2px black;
+  flex-grow: 3;
+}
+
+.addHome {
+  border: none;
+  background-color: rgb(205, 161, 72);
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 900;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  
+}
+
+Link {
+  font-size: 5000;
+}
